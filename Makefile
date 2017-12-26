@@ -17,7 +17,7 @@ $(DVI): $(TEX) manuscript.tex ms-icon-310x310.eps
 manuscript.tex: manuscript.md
 	@cat manuscript.md \
  	| sed s/.png/.eps/g \
-	| pandoc -t latex \
+	| pandoc -f markdown_strict+footnotes -t latex \
 	| sed 's/includegraphics/includegraphics[width=1.0\\columnwidth]/g' \
 	| sed 's/\[htbp\]/\[t\]/g' \
 	> manuscript.tex
