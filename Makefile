@@ -14,7 +14,7 @@ $(PDF): $(DVI)
 $(DVI): $(TEX) manuscript.tex ms-icon-310x310.eps
 	platex $(TEX)
 
-manuscript.tex: 
+manuscript.tex: manuscript.md
 	@cat manuscript.md \
  	| sed s/.png/.eps/g \
 	| pandoc -t latex \
