@@ -25,10 +25,11 @@ manuscript.tex: manuscript.md
 #.png.eps:
 #	convert $< $(<.png=.eps)
 ms-icon-310x310.eps:
-	convert ms-icon-310x310.png ms-icon-310x310.eps
+	convert ms-icon-310x310.png ms-icon-310x310.svg
+	convert ms-icon-310x310.svg ms-icon-310x310.eps
 
 view: $(PDF)
 	open $(PDF)
 
 clean:
-	/bin/rm -f $(DVI) $(PDF) *.out *.aux *.log manuscript.tex *.eps
+	/bin/rm -f $(DVI) $(PDF) *.out *.aux *.log manuscript.tex *.eps *.svg
