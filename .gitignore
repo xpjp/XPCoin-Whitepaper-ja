@@ -223,3 +223,7 @@ TSWLatexianTemp*
 
 # standalone packages
 *.sta
+manuscript.tex
+ms-icon-310x310.eps
+ms-icon-310x310.svg
+XPCoin-Whitepaper-ja.pdf
