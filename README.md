@@ -4,7 +4,7 @@ XPCoin-WhitePaper-ja
 XPCoin whitepaper の日本語訳プロジェクトです。
 
 # 前準備
-pandoc, imagemagick, そして LaTeX のパッケージが必要です。
+pandoc, imagemagick, そして LaTeX のパッケージが必要です。
 
 ## Windows
 T.B.D
