@@ -16,10 +16,8 @@ To the maximum extent permitted by law, XP disclaims any and all liability in th
 Content contained on or made available through the XPcoin.io website or affiliated websites or social media channels is not intended to and does not constitute legal advice or investment advice and no attorney-client relationship is formed.
 Your use of the information on the website or materials linked from the Web is at your own risk.
 
-## 経験豊富な暗号通貨愛好家への注記
-このホワイトペーパーは人々にXPだけではなく一般的な暗号通貨を紹介するように書いているため、経験豊富な読者の中には、話が冗長、退屈、または平易すぎる部分が見つかるかもしれません。
-XPエコシステムによって世界が根底から変わる可能性を秘めているため、暗号通貨を利用していない人々にも読めて、XP開発チームが何を提案しているのかを理解していただくことが重要なのです。
-このホワイトペーパーで紹介しているアイデアの多くは、後日テクニカルイエローペーパーで具体化する予定です。
-
-このホワイトペーパーは、暗号通貨を利用していない人々と暗号通貨愛好家双方のために設計されているので、
-基本的な情報は省略して画期的な提案の本題に入るにはセクションVへ直接進んでください。
+## 経験豊富な暗号通貨愛好家のためのノート
+このペーパーはXPを人々に紹介するだけでなく、一般的な暗号通貨愛好家にも伝わるように設計されているため、
+経験豊かな読者の中には、特定のセグメントが遅い、退屈な、または過度に単純化されていることがあります。
+基本的にXPエコシステムが示す世界的に変化する可能性があるため、非暗号の人々はXP開発チームの提案を読んで理解することが重要です。
+このホワイトペーパーで紹介されているアイデアの多くは、後日、テクニカル・イエロー・ペーパーで詳しく解説されています。
