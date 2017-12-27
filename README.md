@@ -4,12 +4,10 @@ XPCoin-WhitePaper-ja
 XPCoin whitepaper の日本語訳プロジェクトです。
 
 # 翻訳への参加
-1. 英語->日本語はGoogle翻訳ツールを使用して翻訳しています。
+1. 英語->日本語はGoogle翻訳ツールを使用して翻訳しています。@Ryoが招待するので声かけて下さい。
+2. WhitePaper2017-12-25を見て翻訳結果を教えてください。pullリクも可
 2. 日本語に翻訳したものをRyoがmdに転記してプルリクを上げます。
 3. プルリクに対しては、日本語をより伝わりやすいものになるようにレビューをお願いします。
-
-> I have shared a translation with you called " whitepaper ": 
-> [Google翻訳ツール](https://translate.google.com/toolkit/workbench?did=003a70x01ta6mx9se4u8)
 
 # 前準備
 Docker版を使用する場合はDockerが必要です。
