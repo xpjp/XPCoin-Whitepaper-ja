@@ -14,8 +14,8 @@ $(PDF): $(DVI)
 $(DVI): $(TEX) manuscript.tex ms-icon-310x310.eps
 	platex $(TEX)
 
-manuscript.tex: manuscript.md
-	@cat manuscript.md \
+manuscript.tex: whitepaper_ja.md
+	@cat whitepaper_ja.md \
  	| sed s/.png/.eps/g \
 	| pandoc -f markdown_strict+footnotes -t latex \
 	| sed 's/includegraphics/includegraphics[width=1.0\\columnwidth]/g' \
