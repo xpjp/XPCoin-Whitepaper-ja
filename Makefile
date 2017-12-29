@@ -20,6 +20,7 @@ manuscript.tex: whitepaper_ja.md
 	| pandoc -f markdown_strict+footnotes -t latex \
 	| sed 's/includegraphics/includegraphics[width=1.0\\columnwidth]/g' \
 	| sed 's/\[htbp\]/\[t\]/g' \
+        | sed 's/section/section\*/g' \
 	> manuscript.tex
 
 #.png.eps:
