@@ -17,6 +17,8 @@ $(DVI): $(TEX) manuscript.tex ms-icon-310x310.eps
 manuscript.tex: whitepaper_ja.md
 	@cat whitepaper_ja.md \
  	| sed s/.png/.eps/g \
+        | sed s/，/、/g \
+        | sed s/．/。/g \
 	| pandoc -f markdown_strict+footnotes -t latex \
 	| sed 's/includegraphics/includegraphics[width=1.0\\columnwidth]/g' \
 	| sed 's/\[htbp\]/\[t\]/g' \
