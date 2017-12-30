@@ -1,9 +1,8 @@
-language: 
 dist: trusty
-
+language: bash
 addons:
   apt:
-    package:
+    packages:
       - texlive-fonts-recommended
       - texlive-latex-extra
       - texlive-fonts-extra
@@ -17,3 +16,4 @@ addons:
 
 script:
   - make
+
