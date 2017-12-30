@@ -1,0 +1,19 @@
+language: 
+dist: trusty
+
+addons:
+  apt:
+    package:
+      - texlive-fonts-recommended
+      - texlive-latex-extra
+      - texlive-fonts-extra
+      - dvipng
+      - texlive-latex-recommended
+      - texlive texlive-lang-cjk
+      - xdvik-ja
+      - imagemagick
+      - pandoc
+      - make
+
+script:
+  - make
