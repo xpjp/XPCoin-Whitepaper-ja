@@ -2,9 +2,9 @@ os: osx
 language: bash
 
 before_install:
-  - brew update
+  - travis_wait brew update
   - brew tap caskroom/cask
-  - brew install caskroom/cask/mactex
+  - travis_wait brew install caskroom/cask/mactex
   - brew install pandoc imagemagick
 
 script:
