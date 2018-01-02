@@ -5,6 +5,7 @@ before_install:
   - travis_wait brew update
   - brew tap caskroom/cask
   - travis_wait brew install caskroom/cask/mactex
+  - export PATH=/Library/TeX/texbin:$PATH
   - brew install pandoc imagemagick
 
 script:
