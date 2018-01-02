@@ -1,18 +1,11 @@
-dist: trusty
+os: osx
 language: bash
-addons:
-  apt:
-    packages:
-      - texlive-fonts-recommended
-      - texlive-latex-extra
-      - texlive-fonts-extra
-      - dvipng
-      - texlive-latex-recommended
-      - texlive texlive-lang-cjk
-      - xdvik-ja
-      - imagemagick
-      - pandoc
-      - make
+
+before_install:
+  - brew update
+  - brew tap caskroom/cask
+  - brew install caskroom/cask/mactex
+  - brew install pandoc imagemagick
 
 script:
   - make
