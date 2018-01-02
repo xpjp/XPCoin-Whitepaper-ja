@@ -1,0 +1,23 @@
+os: osx
+language: bash
+
+before_install:
+  - travis_wait brew update
+  - brew tap caskroom/cask
+  - travis_wait brew install caskroom/cask/mactex
+  - export PATH=/Library/TeX/texbin:$PATH
+  - brew install pandoc imagemagick
+
+script:
+  - make
+
+deploy:
+  provider: releases
+  api_key: 
+    secure: "RF47OXnuOHp91y0l76x6oDY8zauTcBKLS/vhAW7eCFAESoxSAsBrV/w/PzIfmDheVg6U1YRToJlSqIvahtraJ3m+B233tE6THYJcdeVE71xRO9C5nf9ODIY/Eh4hRWS3G4jjpaiPjMrSnd/asIBJv3o23bs5QAKeSERfX+RGwBAYWwkslf1epEjq0XBKm/CWaR/TkE/i9ciXXyUhMTmJHOBkUByYwU0fm3ZC1uVkRXw4P4fJCDS2xu65driU9opBtv9sJ0jlRdVv9OeuSrM280WKUCaqngYjzbgxnKHdQp0vWXbi1Nwa1JtFAA2/kyawiMz+h4n6GqgAE2BjvKjRwAFvDDIBXvDiGecI0387kKYySmHweGPBMyrU4XPQYiCXaa4u78FFJEivB/r0BaZO2hm1HDoMoWPLgUFMCvWO1cBiDvotXVr2UXcJC19PIWK4J14wF9K0TX0vUWk6U/IlLVhPslrU1BDcahGtGGuMc5QfRzJ1yS2oXu+aV7tzziy6ksIrTFDTlODls9y3cDandkWv110jNUCdZOB+A3iF7C65j8VCC8KziQ3Vy8Im1R3nrHs+ixTpXOQw48haVhQc1Ul11gjTt6p0U6723gEujuPIQ4yeoiOTkhCDsuLFVKuo67kyr0TrsoRMSwaZ8oV5IemztKWG8v0A9oNiGb3Cbvg="
+  file: 
+  - "XPCoin-Whitepaper-ja.pdf"
+  skip_cleanup: true
+  on:
+    repo: "xpjp/XPCoin-Whitepaper-ja"
+    tags: true
