@@ -8,7 +8,7 @@ cache:
 before_install:
   - travis_wait 30 brew update
   - brew tap caskroom/cask
-  - travis_wait 30 brew install caskroom/cask/mactex
+  - travis_wait 60 brew cask install mactex
   - export PATH=/Library/TeX/texbin:$PATH
   - brew install pandoc imagemagick
 
